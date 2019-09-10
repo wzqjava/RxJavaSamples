@@ -1,5 +1,5 @@
 // (c)2016 Flipboard Inc, All Rights Reserved.
-
+// test git
 package com.rengwuxian.rxjavasamples.adapter;
 
 import android.support.v7.widget.RecyclerView;
@@ -51,6 +51,7 @@ public class ItemListAdapter extends RecyclerView.Adapter {
         public DebounceViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
+
         }
     }
 

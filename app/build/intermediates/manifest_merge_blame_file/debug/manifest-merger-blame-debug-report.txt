@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rengwuxian.rxjavasamples"
+4    android:versionCode="1"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:7:5-22:19
+14        android:name="com.rengwuxian.rxjavasamples.App"
+14-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:8:9-28
+15        android:allowBackup="true"
+15-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:9:9-35
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:11:9-41
+19        android:supportsRtl="true"
+19-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:12:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:13:9-40
+22        <activity android:name="com.rengwuxian.rxjavasamples.MainActivity" >
+22-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:15:9-20:20
+22-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:15:19-47
+23            <intent-filter>
+23-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:16:13-19:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:17:17-69
+24-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:17:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:18:17-77
+26-->/Users/wzq/workspaces/AndroidStudioProjects/RxJavaSamples/app/src/main/AndroidManifest.xml:18:27-74
+27            </intent-filter>
+28        </activity>
+29
+30        <meta-data
+30-->[com.android.support:design:26.1.0] /Users/wzq/.gradle/caches/transforms-2/files-2.1/fc0320cd13bf10cf6d7c97e5692578aa/design-26.1.0/AndroidManifest.xml:26:9-28:38
+31            android:name="android.support.VERSION"
+31-->[com.android.support:design:26.1.0] /Users/wzq/.gradle/caches/transforms-2/files-2.1/fc0320cd13bf10cf6d7c97e5692578aa/design-26.1.0/AndroidManifest.xml:27:13-51
+32            android:value="26.1.0" />
+32-->[com.android.support:design:26.1.0] /Users/wzq/.gradle/caches/transforms-2/files-2.1/fc0320cd13bf10cf6d7c97e5692578aa/design-26.1.0/AndroidManifest.xml:28:13-35
+33        <meta-data
+33-->[android.arch.lifecycle:runtime:1.0.0] /Users/wzq/.gradle/caches/transforms-2/files-2.1/4464663fb769105e8b28960e2589148c/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
+34            android:name="android.arch.lifecycle.VERSION"
+34-->[android.arch.lifecycle:runtime:1.0.0] /Users/wzq/.gradle/caches/transforms-2/files-2.1/4464663fb769105e8b28960e2589148c/runtime-1.0.0/AndroidManifest.xml:26:13-58
+35            android:value="27.0.0-SNAPSHOT" />
+35-->[android.arch.lifecycle:runtime:1.0.0] /Users/wzq/.gradle/caches/transforms-2/files-2.1/4464663fb769105e8b28960e2589148c/runtime-1.0.0/AndroidManifest.xml:27:13-44
+36    </application>
+37
+38</manifest>
